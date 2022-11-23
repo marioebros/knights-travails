@@ -4,7 +4,8 @@
   "description": "Your task is to build a function \"knightMoves\" that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
